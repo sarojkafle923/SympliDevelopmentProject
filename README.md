@@ -10,6 +10,4 @@ Once the app is running, use the swagger api to check the result the result of t
 ![image](https://user-images.githubusercontent.com/64567189/189463141-9b8814bd-77a7-4bba-8149-4c1a250a5b19.png)
 
 # Output Sample:-
-![image](https://user-images.githubusercontent.com/64567189/189463308-ac7c025c-4eeb-422a-8f61-cf3f4f657298.png)
-![image](https://user-images.githubusercontent.com/64567189/189463349-61da3edc-acb2-4cf2-b176-0caa0d82fc91.png)
-
+![image](https://user-images.githubusercontent.com/64567189/189464147-d711c2d6-38fc-4cbe-9348-0488fd9905e9.png)
