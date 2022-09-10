@@ -4,7 +4,7 @@
     {
 
         public SearchDeatiils[] SearchDeatiils { get; set; }
-        public int Count { get; set; }
+        public string Count { get; set; }
 
     }
 }

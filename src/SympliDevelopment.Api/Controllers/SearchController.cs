@@ -32,30 +32,34 @@ namespace SympliDevelopment.Api.Controllers
             HtmlNodeCollection nodes = htmlDoc.DocumentNode.SelectNodes(xPath);
 
             var searchDeatils = new List<SearchDeatiils>();
+            var initialCount = 0;
             var count = 0;
             foreach (var node in nodes)
             {
                 var searchDeatil = new SearchDeatiils();
-
                 var link = node.Descendants("a").FirstOrDefault().Attributes["href"].Value;
                 searchDeatil.Url = node.Descendants("a").FirstOrDefault().Attributes["href"].Value;
                 searchDeatil.Title = node.Descendants("h3").FirstOrDefault().InnerText;
+                searchDeatil.PositionCount = "The Sympli companies webisite is displayed at " + (initialCount == 0 ? "the top of the search list." : " the number "+ initialCount+" of the search list.") ;
                 if (searchDeatil.Url.Contains(websiteUrl))
                 {
                     searchDeatils.Add(searchDeatil);
                     count++;
+
                 }
-                
+                initialCount++;
+
+
             }
             var response = new Response
             {
                 SearchDeatiils = searchDeatils.ToArray(),
-                Count = count,
+                Count = "The Sympli website is listed for " + count + " times during the google search in first 100 times of the displayed list.",
 
             };
             return Ok(response);
         }
 
-        
+
     }
 }
