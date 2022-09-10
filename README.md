@@ -1,7 +1,8 @@
 # Description
 Simple web api test sample, This prototype takes an keyword as an input parameter which helps to tracks the specified url and number of times the specified url is listed on first 100 results of the google search.
 
-# Language used is C# and this prototype runs on updated version of the .net 6 version. This contains recreated startup and pre-defined program class for more readability.
+# Language used is C#
+This prototype runs on updated version of the .net 6 version. This contains recreated startup and pre-defined program class for more readability.
 
 
 # Testing Procedure:-
