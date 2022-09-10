@@ -8,7 +8,6 @@ Simple web api test sample, This prototype takes an keyword as an input paramete
 Make sure you have a locally available code editor to run this Web API. Clone this repo and rebuild the solution the solution and simply dotnet run. 
 Once the app is running, use the swagger api to check the result the result of the search controller. 
 ![image](https://user-images.githubusercontent.com/64567189/189463141-9b8814bd-77a7-4bba-8149-4c1a250a5b19.png)
-![image](https://user-images.githubusercontent.com/64567189/189463196-abd640c6-d49f-4361-baa7-0bdf42d685c6.png)
 
 # Output Sample:-
 ![image](https://user-images.githubusercontent.com/64567189/189463308-ac7c025c-4eeb-422a-8f61-cf3f4f657298.png)
